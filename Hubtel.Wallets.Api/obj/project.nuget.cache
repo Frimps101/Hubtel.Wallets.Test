@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "1+ZmKpyCNYZxMWdmUCB+uiF1C8wGVnUVfQL6rt06gIiHKB5ShbXN5FtJrDJ7Uy6jknN1mJUWW1vt9VBiQ9wfPg==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Josephine P\\source\\repos\\Hubtel.Wallets\\Hubtel.Wallets.Api\\Hubtel.Wallets.Api.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Josephine P\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\3.1.32\\microsoft.netcore.app.host.win-x64.3.1.32.nupkg.sha512"
+  ],
+  "logs": []
+}
