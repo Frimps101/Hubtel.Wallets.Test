@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.3.32811.315
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Hubtel.Wallets.Api", "Hubtel.Wallets.Api\Hubtel.Wallets.Api.csproj", "{CBB07E7F-0763-4FFB-97BE-ABD6B5D00492}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Hubtel.Wallets.Api", "Hubtel.Wallets.Api\Hubtel.Wallets.Api.csproj", "{CBB07E7F-0763-4FFB-97BE-ABD6B5D00492}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Hubtel.Wallets.Application", "Hubtel.Wallets.Application", "{740269D1-1F84-41DB-9551-07D01DA0E625}"
 EndProject
