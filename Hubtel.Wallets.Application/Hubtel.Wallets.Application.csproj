@@ -12,16 +12,18 @@
     <Folder Include="Actions\PaymentTypeActions\Queries\" />
     <Folder Include="Actions\WalletActions\Commands\" />
     <Folder Include="Actions\WalletActions\Queries\" />
+    <Folder Include="DTOs\PaymentType\Create\" />
+    <Folder Include="DTOs\PaymentType\Delete\" />
+    <Folder Include="DTOs\PaymentType\Get\" />
+    <Folder Include="DTOs\PaymentType\Update\" />
     <Folder Include="DTOs\Wallet\Create\" />
-    <Folder Include="DTOs\Wallet\Get\" />
-    <Folder Include="DTOs\Wallet\Delete\" />
-    <Folder Include="DTOs\Wallet\Update\" />
-    <Folder Include="Mappers\" />
   </ItemGroup>
 
   <ItemGroup>
     <PackageReference Include="AutoMapper" Version="12.0.1" />
     <PackageReference Include="AutoMapper.Extensions.Microsoft.DependencyInjection" Version="12.0.1" />
+    <PackageReference Include="FluentValidation" Version="11.5.2" />
+    <PackageReference Include="MediatR" Version="12.0.1" />
     <PackageReference Include="Microsoft.AspNetCore.Identity.EntityFrameworkCore" Version="3.1.0" />
     <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="3.1.0">
       <PrivateAssets>all</PrivateAssets>
