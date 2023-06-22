@@ -5,4 +5,9 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\Hubtel.Wallets.Application\Hubtel.Wallets.Application.csproj" />
+    <ProjectReference Include="..\Hubtel.Wallets.Persistence\Hubtel.Wallets.Persistence.csproj" />
+  </ItemGroup>
+
 </Project>

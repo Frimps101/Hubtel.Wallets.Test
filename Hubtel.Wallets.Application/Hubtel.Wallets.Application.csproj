@@ -5,4 +5,28 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
+  <ItemGroup>
+    <Folder Include="Actions\AccountSchemeActions\Commands\" />
+    <Folder Include="Actions\AccountSchemeActions\Queries\" />
+    <Folder Include="Actions\PaymentTypeActions\Commands\" />
+    <Folder Include="Actions\PaymentTypeActions\Queries\" />
+    <Folder Include="Actions\WalletActions\Commands\" />
+    <Folder Include="Actions\WalletActions\Queries\" />
+    <Folder Include="DTOs\Wallet\Create\" />
+    <Folder Include="DTOs\Wallet\Get\" />
+    <Folder Include="DTOs\Wallet\Delete\" />
+    <Folder Include="DTOs\Wallet\Update\" />
+    <Folder Include="Mappers\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="AutoMapper" Version="12.0.1" />
+    <PackageReference Include="AutoMapper.Extensions.Microsoft.DependencyInjection" Version="12.0.1" />
+    <PackageReference Include="Microsoft.AspNetCore.Identity.EntityFrameworkCore" Version="3.1.0" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="3.1.0">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
+  </ItemGroup>
+
 </Project>

@@ -5,49 +5,13 @@ VisualStudioVersion = 17.3.32811.315
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Hubtel.Wallets.Api", "Hubtel.Wallets.Api\Hubtel.Wallets.Api.csproj", "{CBB07E7F-0763-4FFB-97BE-ABD6B5D00492}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Hubtel.Wallets.Application", "Hubtel.Wallets.Application", "{740269D1-1F84-41DB-9551-07D01DA0E625}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Hubtel.Wallets.Application", "Hubtel.Wallets.Application\Hubtel.Wallets.Application.csproj", "{33DDCE3B-66C7-4B33-ADDA-FF2A5A772827}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Hubtel.Wallets.Domain", "Hubtel.Wallets.Domain", "{C841E756-1E18-4B01-80E7-CFBC2D7A532F}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Hubtel.Wallets.Domain", "Hubtel.Wallets.Domain\Hubtel.Wallets.Domain.csproj", "{F127120A-82FE-4492-AAF7-834DA16893D9}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Hubtel.Wallets.Persistence", "Hubtel.Wallets.Persistence", "{F0FC6266-C4F9-4346-8DBE-7571CBE478B5}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Hubtel.Wallets.Persistence", "Hubtel.Wallets.Persistence\Hubtel.Wallets.Persistence.csproj", "{8FE1BF50-D229-44BC-8997-C18A79A128E7}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Hubtel.Wallets.Infrastructure", "Hubtel.Wallets.Infrastructure", "{560386ED-3E5C-497C-B9F0-620B14A3E88A}"
-EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Actions", "Actions", "{6EAC7332-1966-4E74-8970-B89FB97B473A}"
-EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Mappers", "Mappers", "{86F1E189-B5D2-4D9D-BCEF-12AE530FFBFE}"
-EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "DTOs", "DTOs", "{B58F4739-8DDD-4547-84AD-D79F7D8A68C5}"
-EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Models", "Models", "{698EF4F2-2C53-4E24-927F-95910953DB71}"
-	ProjectSection(SolutionItems) = preProject
-		Wallet.cs = Wallet.cs
-	EndProjectSection
-EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Common", "Common", "{C7918694-C5C4-46A9-9C2D-00823B78DE80}"
-EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Wallet", "Wallet", "{CB54CE69-63C3-4FFB-A6BE-872D88F35487}"
-EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Get", "Get", "{E2AE6C31-8A9B-43CF-B7DD-B848E63FF377}"
-	ProjectSection(SolutionItems) = preProject
-		GetWalletDto.cs = GetWalletDto.cs
-		GetWalletsDto.cs = GetWalletsDto.cs
-	EndProjectSection
-EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Create", "Create", "{EB45E28D-7285-4088-9AD5-32EB804569FB}"
-	ProjectSection(SolutionItems) = preProject
-		CreateWalletDto.cs = CreateWalletDto.cs
-	EndProjectSection
-EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Update", "Update", "{689A6BFA-04F7-42DA-BC7D-1C9B7140A42F}"
-	ProjectSection(SolutionItems) = preProject
-		UpdateWalletDto.cs = UpdateWalletDto.cs
-	EndProjectSection
-EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Delete", "Delete", "{6154FF7A-50E4-4E96-BE7F-E2A6C04DC3F2}"
-	ProjectSection(SolutionItems) = preProject
-		DeleteWalletDto.cs = DeleteWalletDto.cs
-	EndProjectSection
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Hubtel.Wallets.Infrastructure", "Hubtel.Wallets.Infrastructure\Hubtel.Wallets.Infrastructure.csproj", "{3D5AA878-DC31-4FD5-A124-80E6DE569D14}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -59,21 +23,25 @@ Global
 		{CBB07E7F-0763-4FFB-97BE-ABD6B5D00492}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{CBB07E7F-0763-4FFB-97BE-ABD6B5D00492}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{CBB07E7F-0763-4FFB-97BE-ABD6B5D00492}.Release|Any CPU.Build.0 = Release|Any CPU
+		{33DDCE3B-66C7-4B33-ADDA-FF2A5A772827}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{33DDCE3B-66C7-4B33-ADDA-FF2A5A772827}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{33DDCE3B-66C7-4B33-ADDA-FF2A5A772827}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{33DDCE3B-66C7-4B33-ADDA-FF2A5A772827}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F127120A-82FE-4492-AAF7-834DA16893D9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F127120A-82FE-4492-AAF7-834DA16893D9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F127120A-82FE-4492-AAF7-834DA16893D9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F127120A-82FE-4492-AAF7-834DA16893D9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8FE1BF50-D229-44BC-8997-C18A79A128E7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8FE1BF50-D229-44BC-8997-C18A79A128E7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8FE1BF50-D229-44BC-8997-C18A79A128E7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8FE1BF50-D229-44BC-8997-C18A79A128E7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3D5AA878-DC31-4FD5-A124-80E6DE569D14}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3D5AA878-DC31-4FD5-A124-80E6DE569D14}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3D5AA878-DC31-4FD5-A124-80E6DE569D14}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3D5AA878-DC31-4FD5-A124-80E6DE569D14}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
-	EndGlobalSection
-	GlobalSection(NestedProjects) = preSolution
-		{6EAC7332-1966-4E74-8970-B89FB97B473A} = {740269D1-1F84-41DB-9551-07D01DA0E625}
-		{86F1E189-B5D2-4D9D-BCEF-12AE530FFBFE} = {740269D1-1F84-41DB-9551-07D01DA0E625}
-		{B58F4739-8DDD-4547-84AD-D79F7D8A68C5} = {740269D1-1F84-41DB-9551-07D01DA0E625}
-		{698EF4F2-2C53-4E24-927F-95910953DB71} = {C841E756-1E18-4B01-80E7-CFBC2D7A532F}
-		{C7918694-C5C4-46A9-9C2D-00823B78DE80} = {C841E756-1E18-4B01-80E7-CFBC2D7A532F}
-		{CB54CE69-63C3-4FFB-A6BE-872D88F35487} = {B58F4739-8DDD-4547-84AD-D79F7D8A68C5}
-		{E2AE6C31-8A9B-43CF-B7DD-B848E63FF377} = {CB54CE69-63C3-4FFB-A6BE-872D88F35487}
-		{EB45E28D-7285-4088-9AD5-32EB804569FB} = {CB54CE69-63C3-4FFB-A6BE-872D88F35487}
-		{689A6BFA-04F7-42DA-BC7D-1C9B7140A42F} = {CB54CE69-63C3-4FFB-A6BE-872D88F35487}
-		{6154FF7A-50E4-4E96-BE7F-E2A6C04DC3F2} = {CB54CE69-63C3-4FFB-A6BE-872D88F35487}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {571EEFF0-923C-4A8B-9F2A-F91A136F605A}
