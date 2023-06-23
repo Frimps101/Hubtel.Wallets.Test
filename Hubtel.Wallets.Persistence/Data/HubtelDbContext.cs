@@ -14,5 +14,14 @@ namespace Hubtel.Wallets.Persistence.Data
         }
 
         public DbSet<Wallet> Wallets { get; set; }
+        public DbSet<PaymentType> PaymentTypes { get; set; }
+        public DbSet<AccountScheme> AccountSchemes { get; set; }
+
+        protected override void OnModelCreating(ModelBuilder modelBuilder)
+        {
+            modelBuilder.Entity<Wallet>().ToTable("Wallet");
+            modelBuilder.Entity<PaymentType>().ToTable("PaymentType");
+            modelBuilder.Entity<AccountScheme>().ToTable("AccountScheme");
+        }
     }
 }

@@ -1,24 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Projects\\Personal\\Hubtel.Wallets.Test\\Hubtel.Wallets.Application\\Hubtel.Wallets.Application.csproj": {}
+    "C:\\Users\\Josephine P\\source\\repos\\Hubtel.Wallets.Test\\Hubtel.Wallets.Application\\Hubtel.Wallets.Application.csproj": {}
   },
   "projects": {
-    "C:\\Projects\\Personal\\Hubtel.Wallets.Test\\Hubtel.Wallets.Application\\Hubtel.Wallets.Application.csproj": {
+    "C:\\Users\\Josephine P\\source\\repos\\Hubtel.Wallets.Test\\Hubtel.Wallets.Application\\Hubtel.Wallets.Application.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Projects\\Personal\\Hubtel.Wallets.Test\\Hubtel.Wallets.Application\\Hubtel.Wallets.Application.csproj",
+        "projectUniqueName": "C:\\Users\\Josephine P\\source\\repos\\Hubtel.Wallets.Test\\Hubtel.Wallets.Application\\Hubtel.Wallets.Application.csproj",
         "projectName": "Hubtel.Wallets.Application",
-        "projectPath": "C:\\Projects\\Personal\\Hubtel.Wallets.Test\\Hubtel.Wallets.Application\\Hubtel.Wallets.Application.csproj",
-        "packagesPath": "C:\\Users\\josephine.kwakye\\.nuget\\packages\\",
-        "outputPath": "C:\\Projects\\Personal\\Hubtel.Wallets.Test\\Hubtel.Wallets.Application\\obj\\",
+        "projectPath": "C:\\Users\\Josephine P\\source\\repos\\Hubtel.Wallets.Test\\Hubtel.Wallets.Application\\Hubtel.Wallets.Application.csproj",
+        "packagesPath": "C:\\Users\\Josephine P\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Josephine P\\source\\repos\\Hubtel.Wallets.Test\\Hubtel.Wallets.Application\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\josephine.kwakye\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Users\\Josephine P\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -31,7 +27,11 @@
         "frameworks": {
           "netstandard2.1": {
             "targetAlias": "netstandard2.1",
-            "projectReferences": {}
+            "projectReferences": {
+              "C:\\Users\\Josephine P\\source\\repos\\Hubtel.Wallets.Test\\Hubtel.Wallets.Domain\\Hubtel.Wallets.Domain.csproj": {
+                "projectPath": "C:\\Users\\Josephine P\\source\\repos\\Hubtel.Wallets.Test\\Hubtel.Wallets.Domain\\Hubtel.Wallets.Domain.csproj"
+              }
+            }
           }
         },
         "warningProperties": {
@@ -60,6 +60,10 @@
               "target": "Package",
               "version": "[12.0.1, )"
             },
+            "Microsoft.AspNetCore.Http.Abstractions": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
             "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
               "target": "Package",
               "version": "[3.1.0, )"
@@ -87,7 +91,62 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.304\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.410\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Josephine P\\source\\repos\\Hubtel.Wallets.Test\\Hubtel.Wallets.Domain\\Hubtel.Wallets.Domain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Josephine P\\source\\repos\\Hubtel.Wallets.Test\\Hubtel.Wallets.Domain\\Hubtel.Wallets.Domain.csproj",
+        "projectName": "Hubtel.Wallets.Domain",
+        "projectPath": "C:\\Users\\Josephine P\\source\\repos\\Hubtel.Wallets.Test\\Hubtel.Wallets.Domain\\Hubtel.Wallets.Domain.csproj",
+        "packagesPath": "C:\\Users\\Josephine P\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Josephine P\\source\\repos\\Hubtel.Wallets.Test\\Hubtel.Wallets.Domain\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Josephine P\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.1": {
+            "targetAlias": "netstandard2.1",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.1": {
+          "targetAlias": "netstandard2.1",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "NETStandard.Library": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.410\\RuntimeIdentifierGraph.json"
         }
       }
     }

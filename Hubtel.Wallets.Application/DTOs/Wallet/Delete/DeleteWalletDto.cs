@@ -4,7 +4,7 @@ using System.Text;
 
 namespace Hubtel.Wallets.Application.DTOs.Wallet.Delete
 {
-    public class DeleteWalletDto
+    public class DeletePaymentTypeDto
     {
     }
 }

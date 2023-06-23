@@ -4,7 +4,7 @@ using System.Text;
 
 namespace Hubtel.Wallets.Application.DTOs.Wallet.Update
 {
-    public class UpdateWalletDto
+    public class UpdatePaymentTypeDto
     {
     }
 }

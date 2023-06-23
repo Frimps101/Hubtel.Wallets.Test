@@ -10,8 +10,9 @@ namespace Hubtel.Wallets.Domain.Models
         public int PymtTypeIdfk { get; set; }
         public int AccSchemeIdfk { get; set; }
         public string AccountNumber { get; set; }
-        public string AccountScheme { get; set; }
         // Owner Repped by Phone Number
         public string PhoneNumber { get; set; }
+
+        public ICollection<PaymentType> PaymentTypes { get; set; }
     }
 }

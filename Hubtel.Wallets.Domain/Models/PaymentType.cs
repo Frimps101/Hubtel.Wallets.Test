@@ -7,7 +7,6 @@ namespace Hubtel.Wallets.Domain.Models
 {
     public class PaymentType:BaseModel
     {
-        public DateTime CreationDate { get; set; }
-        public DateTime EditedDate { get; set; }
+        public ICollection<AccountScheme> AccountSchemes { get; set; }
     }
 }

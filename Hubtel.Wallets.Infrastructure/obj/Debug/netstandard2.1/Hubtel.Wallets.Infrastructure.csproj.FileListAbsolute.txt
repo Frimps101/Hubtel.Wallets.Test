@@ -1,0 +1,17 @@
+C:\Users\Josephine P\source\repos\Hubtel.Wallets.Test\Hubtel.Wallets.Infrastructure\bin\Debug\netstandard2.1\Hubtel.Wallets.Infrastructure.deps.json
+C:\Users\Josephine P\source\repos\Hubtel.Wallets.Test\Hubtel.Wallets.Infrastructure\bin\Debug\netstandard2.1\Hubtel.Wallets.Infrastructure.dll
+C:\Users\Josephine P\source\repos\Hubtel.Wallets.Test\Hubtel.Wallets.Infrastructure\bin\Debug\netstandard2.1\Hubtel.Wallets.Infrastructure.pdb
+C:\Users\Josephine P\source\repos\Hubtel.Wallets.Test\Hubtel.Wallets.Infrastructure\bin\Debug\netstandard2.1\Hubtel.Wallets.Application.dll
+C:\Users\Josephine P\source\repos\Hubtel.Wallets.Test\Hubtel.Wallets.Infrastructure\bin\Debug\netstandard2.1\Hubtel.Wallets.Domain.dll
+C:\Users\Josephine P\source\repos\Hubtel.Wallets.Test\Hubtel.Wallets.Infrastructure\bin\Debug\netstandard2.1\Hubtel.Wallets.Persistence.dll
+C:\Users\Josephine P\source\repos\Hubtel.Wallets.Test\Hubtel.Wallets.Infrastructure\bin\Debug\netstandard2.1\Hubtel.Wallets.Application.pdb
+C:\Users\Josephine P\source\repos\Hubtel.Wallets.Test\Hubtel.Wallets.Infrastructure\bin\Debug\netstandard2.1\Hubtel.Wallets.Persistence.pdb
+C:\Users\Josephine P\source\repos\Hubtel.Wallets.Test\Hubtel.Wallets.Infrastructure\bin\Debug\netstandard2.1\Hubtel.Wallets.Domain.pdb
+C:\Users\Josephine P\source\repos\Hubtel.Wallets.Test\Hubtel.Wallets.Infrastructure\obj\Debug\netstandard2.1\Hubtel.Wallets.Infrastructure.csproj.AssemblyReference.cache
+C:\Users\Josephine P\source\repos\Hubtel.Wallets.Test\Hubtel.Wallets.Infrastructure\obj\Debug\netstandard2.1\Hubtel.Wallets.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Josephine P\source\repos\Hubtel.Wallets.Test\Hubtel.Wallets.Infrastructure\obj\Debug\netstandard2.1\Hubtel.Wallets.Infrastructure.AssemblyInfoInputs.cache
+C:\Users\Josephine P\source\repos\Hubtel.Wallets.Test\Hubtel.Wallets.Infrastructure\obj\Debug\netstandard2.1\Hubtel.Wallets.Infrastructure.AssemblyInfo.cs
+C:\Users\Josephine P\source\repos\Hubtel.Wallets.Test\Hubtel.Wallets.Infrastructure\obj\Debug\netstandard2.1\Hubtel.Wallets.Infrastructure.csproj.CoreCompileInputs.cache
+C:\Users\Josephine P\source\repos\Hubtel.Wallets.Test\Hubtel.Wallets.Infrastructure\obj\Debug\netstandard2.1\Hubtel.Wallets.Infrastructure.csproj.CopyComplete
+C:\Users\Josephine P\source\repos\Hubtel.Wallets.Test\Hubtel.Wallets.Infrastructure\obj\Debug\netstandard2.1\Hubtel.Wallets.Infrastructure.dll
+C:\Users\Josephine P\source\repos\Hubtel.Wallets.Test\Hubtel.Wallets.Infrastructure\obj\Debug\netstandard2.1\Hubtel.Wallets.Infrastructure.pdb

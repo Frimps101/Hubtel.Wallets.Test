@@ -8,24 +8,19 @@
     ".NETStandard,Version=v2.1": []
   },
   "packageFolders": {
-    "C:\\Users\\josephine.kwakye\\.nuget\\packages\\": {},
-    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
+    "C:\\Users\\Josephine P\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Projects\\Personal\\Hubtel.Wallets.Test\\Hubtel.Wallets.Domain\\Hubtel.Wallets.Domain.csproj",
+      "projectUniqueName": "C:\\Users\\Josephine P\\source\\repos\\Hubtel.Wallets.Test\\Hubtel.Wallets.Domain\\Hubtel.Wallets.Domain.csproj",
       "projectName": "Hubtel.Wallets.Domain",
-      "projectPath": "C:\\Projects\\Personal\\Hubtel.Wallets.Test\\Hubtel.Wallets.Domain\\Hubtel.Wallets.Domain.csproj",
-      "packagesPath": "C:\\Users\\josephine.kwakye\\.nuget\\packages\\",
-      "outputPath": "C:\\Projects\\Personal\\Hubtel.Wallets.Test\\Hubtel.Wallets.Domain\\obj\\",
+      "projectPath": "C:\\Users\\Josephine P\\source\\repos\\Hubtel.Wallets.Test\\Hubtel.Wallets.Domain\\Hubtel.Wallets.Domain.csproj",
+      "packagesPath": "C:\\Users\\Josephine P\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Josephine P\\source\\repos\\Hubtel.Wallets.Test\\Hubtel.Wallets.Domain\\obj\\",
       "projectStyle": "PackageReference",
-      "fallbackFolders": [
-        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-      ],
       "configFilePaths": [
-        "C:\\Users\\josephine.kwakye\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+        "C:\\Users\\Josephine P\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -66,7 +61,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.304\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.410\\RuntimeIdentifierGraph.json"
       }
     }
   }

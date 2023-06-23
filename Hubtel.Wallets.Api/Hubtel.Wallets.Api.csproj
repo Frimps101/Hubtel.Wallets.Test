@@ -2,6 +2,7 @@
 
   <PropertyGroup>
     <TargetFramework>netcoreapp3.1</TargetFramework>
+    <StartupObject>Hubtel.Wallets.Api.Program</StartupObject>
   </PropertyGroup>
 
   <ItemGroup>
@@ -18,7 +19,9 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\Hubtel.Wallets.Persistence\Hubtel.Wallets.Persistence.csproj" />
+    <ProjectReference Include="..\Hubtel.Wallets.Application\Hubtel.Wallets.Application.csproj" />
+    <ProjectReference Include="..\Hubtel.Wallets.Domain\Hubtel.Wallets.Domain.csproj" />
+    <ProjectReference Include="..\Hubtel.Wallets.Infrastructure\Hubtel.Wallets.Infrastructure.csproj" />
   </ItemGroup>
 
 

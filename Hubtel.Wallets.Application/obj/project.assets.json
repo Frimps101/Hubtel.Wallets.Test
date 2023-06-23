@@ -104,6 +104,39 @@
           }
         }
       },
+      "Microsoft.AspNetCore.Http.Abstractions/2.2.0": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.AspNetCore.Http.Features": "2.2.0",
+          "System.Text.Encodings.Web": "4.5.0"
+        },
+        "compile": {
+          "lib/netstandard2.0/Microsoft.AspNetCore.Http.Abstractions.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.0/Microsoft.AspNetCore.Http.Abstractions.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "Microsoft.AspNetCore.Http.Features/2.2.0": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.Extensions.Primitives": "2.2.0"
+        },
+        "compile": {
+          "lib/netstandard2.0/Microsoft.AspNetCore.Http.Features.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.0/Microsoft.AspNetCore.Http.Features.dll": {
+            "related": ".xml"
+          }
+        }
+      },
       "Microsoft.AspNetCore.Identity.EntityFrameworkCore/3.1.0": {
         "type": "package",
         "dependencies": {
@@ -564,6 +597,29 @@
             "related": ".xml"
           }
         }
+      },
+      "System.Text.Encodings.Web/4.5.0": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/System.Text.Encodings.Web.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.0/System.Text.Encodings.Web.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "Hubtel.Wallets.Domain/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.1",
+        "compile": {
+          "bin/placeholder/Hubtel.Wallets.Domain.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Hubtel.Wallets.Domain.dll": {}
+        }
       }
     }
   },
@@ -678,6 +734,32 @@
         "lib/netstandard2.0/Microsoft.AspNetCore.Cryptography.KeyDerivation.xml",
         "microsoft.aspnetcore.cryptography.keyderivation.3.1.0.nupkg.sha512",
         "microsoft.aspnetcore.cryptography.keyderivation.nuspec"
+      ]
+    },
+    "Microsoft.AspNetCore.Http.Abstractions/2.2.0": {
+      "sha512": "Nxs7Z1q3f1STfLYKJSVXCs1iBl+Ya6E8o4Oy1bCxJ/rNI44E/0f6tbsrVqAWfB7jlnJfyaAtIalBVxPKUPQb4Q==",
+      "type": "package",
+      "path": "microsoft.aspnetcore.http.abstractions/2.2.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/netstandard2.0/Microsoft.AspNetCore.Http.Abstractions.dll",
+        "lib/netstandard2.0/Microsoft.AspNetCore.Http.Abstractions.xml",
+        "microsoft.aspnetcore.http.abstractions.2.2.0.nupkg.sha512",
+        "microsoft.aspnetcore.http.abstractions.nuspec"
+      ]
+    },
+    "Microsoft.AspNetCore.Http.Features/2.2.0": {
+      "sha512": "ziFz5zH8f33En4dX81LW84I6XrYXKf9jg6aM39cM+LffN9KJahViKZ61dGMSO2gd3e+qe5yBRwsesvyqlZaSMg==",
+      "type": "package",
+      "path": "microsoft.aspnetcore.http.features/2.2.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/netstandard2.0/Microsoft.AspNetCore.Http.Features.dll",
+        "lib/netstandard2.0/Microsoft.AspNetCore.Http.Features.xml",
+        "microsoft.aspnetcore.http.features.2.2.0.nupkg.sha512",
+        "microsoft.aspnetcore.http.features.nuspec"
       ]
     },
     "Microsoft.AspNetCore.Identity.EntityFrameworkCore/3.1.0": {
@@ -1400,6 +1482,30 @@
         "system.runtime.compilerservices.unsafe.nuspec",
         "useSharedDesignerContext.txt"
       ]
+    },
+    "System.Text.Encodings.Web/4.5.0": {
+      "sha512": "Xg4G4Indi4dqP1iuAiMSwpiWS54ZghzR644OtsRCm/m/lBMG8dUBhLVN7hLm8NNrNTR+iGbshCPTwrvxZPlm4g==",
+      "type": "package",
+      "path": "system.text.encodings.web/4.5.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE.TXT",
+        "THIRD-PARTY-NOTICES.TXT",
+        "lib/netstandard1.0/System.Text.Encodings.Web.dll",
+        "lib/netstandard1.0/System.Text.Encodings.Web.xml",
+        "lib/netstandard2.0/System.Text.Encodings.Web.dll",
+        "lib/netstandard2.0/System.Text.Encodings.Web.xml",
+        "system.text.encodings.web.4.5.0.nupkg.sha512",
+        "system.text.encodings.web.nuspec",
+        "useSharedDesignerContext.txt",
+        "version.txt"
+      ]
+    },
+    "Hubtel.Wallets.Domain/1.0.0": {
+      "type": "project",
+      "path": "../Hubtel.Wallets.Domain/Hubtel.Wallets.Domain.csproj",
+      "msbuildProject": "../Hubtel.Wallets.Domain/Hubtel.Wallets.Domain.csproj"
     }
   },
   "projectFileDependencyGroups": {
@@ -1407,30 +1513,27 @@
       "AutoMapper >= 12.0.1",
       "AutoMapper.Extensions.Microsoft.DependencyInjection >= 12.0.1",
       "FluentValidation >= 11.5.2",
+      "Hubtel.Wallets.Domain >= 1.0.0",
       "MediatR >= 12.0.1",
+      "Microsoft.AspNetCore.Http.Abstractions >= 2.2.0",
       "Microsoft.AspNetCore.Identity.EntityFrameworkCore >= 3.1.0",
       "Microsoft.EntityFrameworkCore.Tools >= 3.1.0"
     ]
   },
   "packageFolders": {
-    "C:\\Users\\josephine.kwakye\\.nuget\\packages\\": {},
-    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
+    "C:\\Users\\Josephine P\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Projects\\Personal\\Hubtel.Wallets.Test\\Hubtel.Wallets.Application\\Hubtel.Wallets.Application.csproj",
+      "projectUniqueName": "C:\\Users\\Josephine P\\source\\repos\\Hubtel.Wallets.Test\\Hubtel.Wallets.Application\\Hubtel.Wallets.Application.csproj",
       "projectName": "Hubtel.Wallets.Application",
-      "projectPath": "C:\\Projects\\Personal\\Hubtel.Wallets.Test\\Hubtel.Wallets.Application\\Hubtel.Wallets.Application.csproj",
-      "packagesPath": "C:\\Users\\josephine.kwakye\\.nuget\\packages\\",
-      "outputPath": "C:\\Projects\\Personal\\Hubtel.Wallets.Test\\Hubtel.Wallets.Application\\obj\\",
+      "projectPath": "C:\\Users\\Josephine P\\source\\repos\\Hubtel.Wallets.Test\\Hubtel.Wallets.Application\\Hubtel.Wallets.Application.csproj",
+      "packagesPath": "C:\\Users\\Josephine P\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Josephine P\\source\\repos\\Hubtel.Wallets.Test\\Hubtel.Wallets.Application\\obj\\",
       "projectStyle": "PackageReference",
-      "fallbackFolders": [
-        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-      ],
       "configFilePaths": [
-        "C:\\Users\\josephine.kwakye\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+        "C:\\Users\\Josephine P\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -1443,7 +1546,11 @@
       "frameworks": {
         "netstandard2.1": {
           "targetAlias": "netstandard2.1",
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\Users\\Josephine P\\source\\repos\\Hubtel.Wallets.Test\\Hubtel.Wallets.Domain\\Hubtel.Wallets.Domain.csproj": {
+              "projectPath": "C:\\Users\\Josephine P\\source\\repos\\Hubtel.Wallets.Test\\Hubtel.Wallets.Domain\\Hubtel.Wallets.Domain.csproj"
+            }
+          }
         }
       },
       "warningProperties": {
@@ -1472,6 +1579,10 @@
             "target": "Package",
             "version": "[12.0.1, )"
           },
+          "Microsoft.AspNetCore.Http.Abstractions": {
+            "target": "Package",
+            "version": "[2.2.0, )"
+          },
           "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
             "target": "Package",
             "version": "[3.1.0, )"
@@ -1499,7 +1610,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.304\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.410\\RuntimeIdentifierGraph.json"
       }
     }
   }

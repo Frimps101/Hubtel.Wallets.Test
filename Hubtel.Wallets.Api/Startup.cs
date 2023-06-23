@@ -1,3 +1,5 @@
+using Hubtel.Wallets.Application.Persistence.Repositories;
+using Hubtel.Wallets.Infrastructure.Persistence.Repositories;
 using Hubtel.Wallets.Persistence.Data;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.AspNetCore.Builder;
@@ -10,9 +12,11 @@ using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using Microsoft.Extensions.Logging;
 using Microsoft.IdentityModel.Tokens;
+using Microsoft.OpenApi.Models;
 using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Reflection;
 using System.Text;
 using System.Threading.Tasks;
 
@@ -33,6 +37,8 @@ namespace Hubtel.Wallets.Api
             services.AddDbContext<HubtelDbContext>(options =>
                 options.UseSqlServer(Configuration.GetConnectionString("DefaultConnection")), ServiceLifetime.Transient);
 
+            services.AddScoped(typeof(IGenericRepository<>), typeof(GenericRepository<>));
+
             services.AddAuthentication(JwtBearerDefaults.AuthenticationScheme)
                 .AddJwtBearer(options => {
                     options.TokenValidationParameters = new Microsoft.IdentityModel.Tokens.TokenValidationParameters
@@ -47,6 +53,17 @@ namespace Hubtel.Wallets.Api
                     };
                 });
 
+            services.AddSwaggerGen();
+            services.AddSwaggerGen(c =>
+            {
+                c.SwaggerDoc("v1", new OpenApiInfo
+                {
+                    Version = "v1",
+                    Title = "Hubtel Wallet API",
+                    Description = "Swagger to show implementation of Hubtel Wallet API",
+                });
+            });
+
             services.AddControllers();
         }
 
@@ -57,6 +74,13 @@ namespace Hubtel.Wallets.Api
             {
                 app.UseDeveloperExceptionPage();
             }
+
+            app.UseSwagger();
+            app.UseSwaggerUI(c =>
+            {
+                c.SwaggerEndpoint("/swagger/v1/swagger.json", "Showing API v1");
+                c.RoutePrefix = "";
+            });
 
             app.UseHttpsRedirection();
 

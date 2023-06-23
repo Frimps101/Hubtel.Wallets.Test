@@ -1,4 +1,7 @@
-﻿using MediatR;
+﻿
+using Hubtel.Wallets.Application.Actions.WalletActions.Commands.CreateWallet;
+using Hubtel.Wallets.Application.DTOs.Wallet.Create;
+using MediatR;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using System.Threading.Tasks;
@@ -15,18 +18,25 @@ namespace Hubtel.Wallets.Api.Controllers
         {
             _mediator = mediator;
         }
-        public async Task createWallet()
+
+        [HttpPost]
+        public async Task<IActionResult> CreateWallet([FromBody] CreateWalletDto dto)
         {
-            
+            await _mediator.Send(new CreateWalletCommand { Dto = dto });
+
+            return NoContent();
         }
-
-        public async Task GetWallet()
+        
+        /*
+        public async Task<IActionResult> GetAllWallets()
         {
-            if (!ModelState.IsValid)
-            {
-
+            if (!ModelState.IsValid{
+                return BadRequest(ModelState);
             }
-            
+
+            var result = await _mediator.Send(new GetAllWalletsQuery { });
+            return Ok(result);
         }
+        */
     }
 }

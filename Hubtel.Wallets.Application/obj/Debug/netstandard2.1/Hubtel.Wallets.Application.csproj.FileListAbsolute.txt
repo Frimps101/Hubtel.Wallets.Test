@@ -1,0 +1,13 @@
+C:\Users\Josephine P\source\repos\Hubtel.Wallets.Test\Hubtel.Wallets.Application\bin\Debug\netstandard2.1\Hubtel.Wallets.Application.deps.json
+C:\Users\Josephine P\source\repos\Hubtel.Wallets.Test\Hubtel.Wallets.Application\bin\Debug\netstandard2.1\Hubtel.Wallets.Application.dll
+C:\Users\Josephine P\source\repos\Hubtel.Wallets.Test\Hubtel.Wallets.Application\bin\Debug\netstandard2.1\Hubtel.Wallets.Application.pdb
+C:\Users\Josephine P\source\repos\Hubtel.Wallets.Test\Hubtel.Wallets.Application\bin\Debug\netstandard2.1\Hubtel.Wallets.Domain.dll
+C:\Users\Josephine P\source\repos\Hubtel.Wallets.Test\Hubtel.Wallets.Application\bin\Debug\netstandard2.1\Hubtel.Wallets.Domain.pdb
+C:\Users\Josephine P\source\repos\Hubtel.Wallets.Test\Hubtel.Wallets.Application\obj\Debug\netstandard2.1\Hubtel.Wallets.Application.csproj.AssemblyReference.cache
+C:\Users\Josephine P\source\repos\Hubtel.Wallets.Test\Hubtel.Wallets.Application\obj\Debug\netstandard2.1\Hubtel.Wallets.Application.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Josephine P\source\repos\Hubtel.Wallets.Test\Hubtel.Wallets.Application\obj\Debug\netstandard2.1\Hubtel.Wallets.Application.AssemblyInfoInputs.cache
+C:\Users\Josephine P\source\repos\Hubtel.Wallets.Test\Hubtel.Wallets.Application\obj\Debug\netstandard2.1\Hubtel.Wallets.Application.AssemblyInfo.cs
+C:\Users\Josephine P\source\repos\Hubtel.Wallets.Test\Hubtel.Wallets.Application\obj\Debug\netstandard2.1\Hubtel.Wallets.Application.csproj.CoreCompileInputs.cache
+C:\Users\Josephine P\source\repos\Hubtel.Wallets.Test\Hubtel.Wallets.Application\obj\Debug\netstandard2.1\Hubtel.Wallets.Application.csproj.CopyComplete
+C:\Users\Josephine P\source\repos\Hubtel.Wallets.Test\Hubtel.Wallets.Application\obj\Debug\netstandard2.1\Hubtel.Wallets.Application.dll
+C:\Users\Josephine P\source\repos\Hubtel.Wallets.Test\Hubtel.Wallets.Application\obj\Debug\netstandard2.1\Hubtel.Wallets.Application.pdb
